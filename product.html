@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products - FitnessHub</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+ 
+   <div class="container">
+       <div class="navbar">
+        <div class="logo">
+            <img src="image/new.jpg" width="125px">
+        </div>
+         <nav>
+            <ul id="MenuItems">
+                <li><a href="">Home</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Account</a></li>
+            </ul>
+        </nav>
+        <img src="image/cart.png" width="30px" height="30px">
+        <img src="image/menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+    </div>
+
+   <div class="small-container">
+      
+    <div class="row row-2">
+        <h2>All Products</h2>
+        <select>
+            <option>Default Shorting</option>
+            <option>Short by price</option>
+            <option>Short by popularity</option>
+            <option>Short by rating</option>
+            <option>Short by sale</option>
+        </select>
+    </div>
+
+
+       <div class="row">
+           <div class="col-4">
+               <img src="image/starx.jpg">
+               <h4>starx 20kg weight with rods set</h4>
+               <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+             </div>
+               <p>$1000.00</p>
+           </div>
+           <div class="col-4">
+            <img src="image/pro1 (2).jpg">
+            <h4>BIG MUSCLES Signature Whey</h4>
+            <div class="rating">
+             <i class="fa fa-star"></i>
+             <i class="fa fa-star"></i>
+             <i class="fa fa-star"></i>
+             <i class="fa fa-star"></i>
+             <i class="fa fa-star-o"></i>
+             </div>
+            <p>Rs.1,200</p>
+           </div>
+            <div class="col-4">
+                <img src="image/pro3.jpg">
+                <h4>Powermax Fitness TDA-100 Treadmill</h4>
+                <div class="rating">
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star-o"></i>
+ 
+                </div>
+                <p>Rs.29,999</p>
+            </div>
+       <div class="col-4">
+        <img src="image/pro2.jpg">
+        <h4>Hex Dumbbell 5 Kg</h4>
+        <div class="rating">
+         <i class="fa fa-star"></i>
+         <i class="fa fa-star"></i>
+         <i class="fa fa-star"></i>
+         <i class="fa fa-star"></i>
+         <i class="fa fa-star-o"></i>
+        </div>
+        <p>Rs.1,499</p>
+   </div>
+   <div class="col-4">
+    <img src="image/la1.jpg">
+    <h4>BIG MUSCLES NUTRITION CRUDE WHEY</h4>
+    <div class="rating">
+     <i class="fa fa-star"></i>
+     <i class="fa fa-star"></i>
+     <i class="fa fa-star"></i>
+     <i class="fa fa-star"></i>
+     <i class="fa fa-star-o"></i>
+  </div>
+    <p>Rs.1,470</p>
+</div>
+<div class="col-4">
+ <img src="image/la2.jpg">
+ <h4>Star X Home Gym 8kg Dumbbell Set</h4>
+ <div class="rating">
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star-o"></i>
+</div>
+ <p>Rs.1,517</p>
+</div>
+ <div class="col-4">
+     <img src="image/la3.jpg">
+     <h4>Powermax Fitness TDA-100 Treadmill</h4>
+     <div class="rating">
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star-o"></i>
+    </div>
+     <p>Rs.29,999</p>
+</div>
+<div class="col-4">
+<img src="image/la4.jpg">
+<h4>ROYAL GYM SMALL AND LARGE SIZE Dumbbell</h4>
+<div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-o"></i>
+</div>
+<p>Rs.1,650</p>
+</div>
+<div class="col-4">
+<img src="image/la5.jpg">
+<h4>MARCRAZY Revoflex Extreme Slimming Srrecher Workout</h4>
+<div class="rating">
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star-o"></i>
+</div>
+<p>Rs.1,599</p>
+</div>
+<div class="col-4">
+<img src="image/la6.jpg">
+<h4>BIG MUSCLES NUTRITION PURELY WHEY</h4>
+<div class="rating">
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star-o"></i>
+</div>
+<p>Rs.1,300</p>
+</div>
+<div class="col-4">
+<img src="image/la7.jpg">
+<h4>Priyal Enterprises Home Gym Complete Body Exercise</h4>
+<div class="rating">
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star-o"></i>
+ </div>
+<p>Rs.999</p>
+</div>
+<div class="col-4">
+<img src="image/la8.jpg">
+<h4>S.DSPORTS 4 Pvc Adjustable Dumbbell</h4>
+<div class="rating">
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star-o"></i>
+</div>
+<p>Rs.1,499</p>
+</div>
+</div>
+
+<div class="page-btn">
+    <span>1</span>
+    <span>2</span>
+    <span>3</span>
+    <span>4</span>
+    <span>&#8594</span>
+</div>
+
+</div>
+
+<!-------- footer ---------->
+<div class="footer">
+    <div class="class">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and ios mobile phone.</p>
+                <div class="app-logo">
+                    <img src="image/playstore...jpg">
+                    <img src="image/app...jpg">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="image/logo.jpg">
+                 <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of sports Accessible to the many.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-3">
+                <h3>Follow us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="Copyright">Copyright 2021 - Easy Tutorials</p>
+    </div>
+</div>
+
+<!----------js for toggle menu--------->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px"
+        }
+        else
+        {
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+</body>
+</html>
